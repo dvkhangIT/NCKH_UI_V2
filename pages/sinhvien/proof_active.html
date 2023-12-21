@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý hoạt động khoa CNTT</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/201f6c5d4d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar" class="">
+        <h1>
+          <a href="index.html" class="logo">Quản lý hoạt động</a>
+        </h1>
+        <ul class="list-unstyled components mb-5">
+          <li class="">
+            <a href="#"><span class="fa fa-home mr-3"></span> Trang chủ</a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="fa fa-user mr-3"></span> Tất cả hoạt động</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="fa fa-sticky-note mr-3"></span> Hoạt động tham
+              gia</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="fa fa-paper-plane mr-3"></span> Thêm minh chứng</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="fa fa-paper-plane mr-3"></span> Xem minh chứng</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- Page Content  -->
+      <div id="content" class="">
+        <div class="navbar-content">
+          <nav class="background-pr d-flex">
+            <div class="col-10">
+              <!-- <div class="custom-menu">
+                <button
+                  type="button"
+                  id="sidebarCollapse"
+                  class="btn btn-primary"
+                >
+                  <i class="fa fa-bars"></i>
+                  <span class="sr-only">Toggle Menu</span>
+                </button>
+              </div> -->
+            </div>
+            <div class="col-2 d-flex justify-content-end flex-nowrap">
+              <div class="user py-2 d-block">
+                <a href="pages/login.html" class="text-white">
+                  <i class="fa-regular fa-user pr-1"></i>
+                  Đăng nhập
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="main-content p-4 p-md-5 pt-5">
+          <div class="form-proof">
+            <form action="#" method="post" enctype="multipart/form-data">
+              <div class="mb-4 mt-4">
+                <label for="id_thamGia" class="form-label">Tên hoạt động</label>
+                <select class="custom-select" id="id_thamGia" name="id_thamGia">
+                  <option value="8">
+                    Hỗ trợ tình nguyện hồ sơ nhập học SV
+                  </option>
+                  <option value="14">
+                    Hỗ trợ tình nguyện hồ sơ nhập học SV
+                  </option>
+                  <option value="15">
+                    Hỗ trợ tình nguyện hồ sơ nhập học SV
+                  </option>
+                </select>
+              </div>
+              <div class="mb-4 mt-4">
+                <label for="hinhAnh" class="form-label">Hình ảnh</label>
+                <div class="custom-file">
+                  <input type="file" class="custom-file-input" id="hinhAnh" />
+                  <label
+                    class="custom-file-label"
+                    for="hinhAnh"
+                    data-browse="Tải lên"
+                    >Chọn ảnh</label
+                  >
+                </div>
+              </div>
+              <div class="mb-4 text-center">
+                <button
+                  type="submit"
+                  name="btn_save"
+                  class="btn background-pr text-white w-100"
+                >
+                  Lưu
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <footer class="background-pr col-12 footer">
+          <div class="text-center py-2">
+            <div>
+              <span class="text-white text-uppercase"
+                >trường đại học kỹ thuật - công nghệ cần thơ</span
+              >
+            </div>
+            <div class="">
+              <span class="text-white"
+                >Địa chỉ: 256 Nguyễn Văn Cừ, Phường An Hoà, Quận Ninh Kiều,
+                Thành phố Cần Thơ</span
+              >
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="../../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="../../assets/js/bootstrap.js"></script>
+    <script src="../../assets/js/main.js"></script>
+  </body>
+</html>

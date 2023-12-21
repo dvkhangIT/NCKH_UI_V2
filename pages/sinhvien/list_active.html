@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quản lý hoạt động khoa CNTT</title>
+    <link rel="stylesheet" href="../../assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="../../assets/css/style.css" />
+    <!-- icon -->
+    <script
+      src="https://kit.fontawesome.com/201f6c5d4d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="wrapper d-flex align-items-stretch">
+      <nav id="sidebar" class="">
+        <h1>
+          <a href="index.html" class="logo">Quản lý hoạt động</a>
+        </h1>
+        <ul class="list-unstyled components mb-5">
+          <li class="">
+            <a href="#"><span class="fa fa-home mr-3"></span> Trang chủ</a>
+          </li>
+          <li>
+            <a href="#"
+              ><span class="fa fa-user mr-3"></span> Tất cả hoạt động</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="fa fa-sticky-note mr-3"></span> Hoạt động tham
+              gia</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="fa fa-paper-plane mr-3"></span> Thêm minh chứng</a
+            >
+          </li>
+          <li>
+            <a href="#"
+              ><span class="fa fa-paper-plane mr-3"></span> Xem minh chứng</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- Page Content  -->
+      <div id="content" class="">
+        <div class="navbar-content">
+          <nav class="background-pr d-flex">
+            <div class="col-10">
+              <!-- <div class="custom-menu">
+                <button
+                  type="button"
+                  id="sidebarCollapse"
+                  class="btn btn-primary"
+                >
+                  <i class="fa fa-bars"></i>
+                  <span class="sr-only">Toggle Menu</span>
+                </button>
+              </div> -->
+            </div>
+            <div class="col-2 d-flex justify-content-end flex-nowrap">
+              <div class="user py-2 d-block">
+                <a href="pages/login.html" class="text-white">
+                  <i class="fa-regular fa-user pr-1"></i>
+                  Đăng nhập
+                </a>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="main-content p-4 p-md-5 pt-5">
+          <div class="mb-3 w-50 float-right">
+            <form action="#">
+              <div class="input-group">
+                <input
+                  type="text"
+                  class="form-control form-control"
+                  placeholder="Tìm kiếm"
+                  name="input-search"
+                />
+                <div class="input-group-append background-pr rounded-right">
+                  <button
+                    type="submit"
+                    class="btn btn btn-default text-white btn-hover"
+                    name="button-search"
+                  >
+                    <i class="fa fa-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <table class="table-responsive table bg-light">
+            <tbody>
+              <tr>
+                <th class="col-1">STT</th>
+                <th class="col-3">Tên hoạt động</th>
+                <th class="col-3">Địa điểm</th>
+                <th class="col-3">Mô tả</th>
+                <th class="col-2">Thao tác</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Hỗ trợ tình nguyện hồ sơ nhập học SV</td>
+                <td>Trường Đại học Kỹ thuật - Công nghệ Cần Thơ</td>
+                <td>Cộng 2 điểm rèn luyện vào mục 1</td>
+                <td>
+                  <a
+                    class="text-decoration-none"
+                    href="?url=join_active&amp;id=1"
+                    >Tham gia</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Hỗ trợ tình nguyện</td>
+                <td>Trường Đại học Kỹ thuật - Công nghệ Cần Thơ</td>
+                <td>Cộng 3 điểm rèn luyện vào mục 2</td>
+                <td>
+                  <a
+                    class="text-decoration-none"
+                    href="?url=join_active&amp;id=2"
+                    >Tham gia</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Hội thao sinh viên cấp khoa</td>
+                <td>Trường Đại học Kỹ thuật - Công nghệ Cần Thơ</td>
+                <td>
+                  Cộng 2 điểm rèn luyện vào mục 1 của phiếu đánh giá rèn luyện
+                </td>
+                <td>
+                  <a
+                    class="text-decoration-none"
+                    href="?url=join_active&amp;id=3"
+                    >Tham gia</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Sinh viên tình nguyện</td>
+                <td>Trường Đại học Kỹ thuật - Công nghệ Cần Thơ</td>
+                <td>
+                  Cộng 3 điểm rèn luyện vào mục 5 của phiếu đánh giá rèn luyện
+                </td>
+                <td>
+                  <a
+                    class="text-decoration-none"
+                    href="?url=join_active&amp;id=4"
+                    >Tham gia</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Hổ trợ</td>
+                <td>Trường Đại học Kỹ thuật - Công nghệ Cần Thơ</td>
+                <td>Cộng điểm</td>
+                <td>
+                  <a
+                    class="text-decoration-none"
+                    href="?url=join_active&amp;id=5"
+                    >Tham gia</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Hội Thảo SV</td>
+                <td>Trường Đại học Kỹ thuật - Công nghệ Cần Thơ</td>
+                <td>Cộng 2 điểm rèn luyện vào mục a phần b</td>
+                <td>
+                  <a
+                    class="text-decoration-none"
+                    href="?url=join_active&amp;id=6"
+                    >Tham gia</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <footer class="background-pr col-12 footer">
+          <div class="text-center py-2">
+            <div>
+              <span class="text-white text-uppercase"
+                >trường đại học kỹ thuật - công nghệ cần thơ</span
+              >
+            </div>
+            <div class="">
+              <span class="text-white"
+                >Địa chỉ: 256 Nguyễn Văn Cừ, Phường An Hoà, Quận Ninh Kiều,
+                Thành phố Cần Thơ</span
+              >
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="../../assets/js/jquery-3.7.1.min.js"></script>
+    <script src="../../assets/js/bootstrap.js"></script>
+    <script src="../../assets/js/main.js"></script>
+  </body>
+</html>
