@@ -262,10 +262,12 @@ input[type="radio"] {
 .footer {
   position: fixed;
   bottom: 0;
+  width: calc(100% - 250px);
 }
 .form-proof {
   width: 50%;
   margin: 0 auto;
   background: #fff;
   padding: 10px;
+  transform: translateY(40%);
 }
