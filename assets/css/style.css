@@ -254,6 +254,7 @@ input[type="radio"] {
   margin: 50px auto;
   background: #eee;
   padding: 20px;
+  transform: translateY(20%);
 }
 .btn-hover:hover {
   background-color: #2f89fc;
